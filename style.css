@@ -1,0 +1,55 @@
+body
+{
+  width: 100%;
+  max-width: 9000px;
+  margin: 100;
+}
+
+.column
+{
+    float: left;
+}
+
+.left
+{
+  width: 55%;
+  height: 600px;
+  clip-path: polygon(90% 47%, 0 0, 0 91%);
+}
+
+.middle
+{
+    top: 25%;
+    width: 25%;
+    height: 550px;
+}
+
+.right
+{
+    width: 10%;
+    height: 300px;
+}
+
+.footer1
+{
+  position: absolute;
+  bottom:0;
+  width: 15%;
+  height: 3rem;
+}
+
+.footer2
+{
+  position: absolute;
+  bottom: 0;
+  width:50%;
+  height: 10rem;
+  font-size:10px;
+}
+
+hr.new1
+{
+  border: 1.5px solid #1BD5F6;
+  width: 55px;
+  margin-left: 1px;
+}
